@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProjectPathfinding.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{68888ED4-AB07-4F46-AF02-89E9E72C221A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectPathfinding.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProjectPathfindingEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CA55D62A-66AD-48EA-B7AD-A589DA54ABDF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProjectPathfinding">
+			<UniqueIdentifier>{4416390D-B9AB-46D8-AB6E-4812A0F0115A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectPathfinding\ProjectPathfinding.Build.cs">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProjectPathfinding\ProjectPathfinding.cpp">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectPathfinding\ProjectPathfinding.h">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectPathfinding\ProjectPathfindingCharacter.cpp">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectPathfinding\ProjectPathfindingCharacter.h">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectPathfinding\ProjectPathfindingGameMode.cpp">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectPathfinding\ProjectPathfindingGameMode.h">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectPathfinding\ProjectPathfindingPlayerController.cpp">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectPathfinding\ProjectPathfindingPlayerController.h">
+			<Filter>Source\ProjectPathfinding</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
